@@ -6,9 +6,9 @@ You can also trigger the function manually via the Cloud UI.
 
 Command to re-deploy:
 ```sh
-gcloud functions deploy converter_python_nightly \
+gcloud functions deploy converter_pip_nightly_test \
   --runtime nodejs8 \
-  --trigger-topic converter_python_nightly
+  --trigger-topic nightly
 ```
 
 ### The pipeline
